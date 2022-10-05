@@ -1,0 +1,135 @@
+body {
+    margin: 0px auto;
+    padding: 0;
+    background: #2F2E41;
+    color:white;
+    width: 1280px;
+    min-height: 100vh;
+    overflow-x: hidden; 
+    
+    
+}
+
+.page {
+    width: 1000px;
+    margin: 0px auto;  
+    padding-top: 65px; 
+    position: fixed;
+   
+       
+}
+
+
+nav {
+    display: flex;
+    height: 30px;
+    margin: 70px auto;
+    justify-content: space-between;
+    justify-items: center;
+
+   
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+    gap: 64px;
+
+    position: relative;
+    width: 306px;
+    height: 30.05px;
+    right: 0px;
+    top: 0px;
+    opacity: 1;
+   
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-family: bold;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 1;
+    
+    
+}
+
+main {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+main .div-img img {
+    width: 500px;
+}
+
+main .div-text {
+    width: 700px;
+    text-align: center;
+}
+
+main .div-text h1 span {
+    color: #00BFA6;
+}
+
+main .div-text p {
+    color: #c2c2c2b4;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    width: 600px;
+    margin: 60px auto;
+}
+main .div-text p strong {
+    color: #C2C2C2;
+}
+main .div-text .p2 {
+    width: 650px;
+}
+main .div-text .p2 strong {
+    color: #C2C2C2;
+}
+main .div-text .p2 span {
+    color: #00BFA6;
+
+}
+
+footer {
+    width: 700px;
+    border-top: solid 1px green;
+    margin: 220px auto 0px auto;
+}
+
+footer p {
+    text-align: center;
+    font-size:  20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+footer img {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
